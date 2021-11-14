@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Dancing+Script&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  background-image: url("bg1.png");
+  color: black;
+  font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+header, .content {
+	background: lavender;
+	display: flex;
+	border: solid;
+	border-color: darkgrey;
+	border-radius: 10px;
+	margin: 5% 20% 5% 20%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quote{
+  margin-top: 25px;
+  color: blueviolet;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+.author{
+  margin-top: 10px;
+  color: blue;
+  font-family: 'Cairo', sans-serif;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  background: rgb(90, 90, 145);
+	display: flex;
+	border: solid;
+  border-color: darkgrey;
+	color: lavender;
+	border-radius: 10px;
+	margin: 5% 43% 5% 43%;
+	padding: 1rem;
+}
+
+i {
+  margin-top: 1rem;
 }
